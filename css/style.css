@@ -1,0 +1,221 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:#F5F7FA;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: #fff;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* main content section */
+.main-container__main-сontent {
+    padding: 100px 90px;
+}
+
+/* aboutMe section */
+.main__about-me {
+    width: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 40px;
+    color: #595959;
+}
+
+.about-me__profession {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+}
+ 
+.about-me__name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    margin: 20px 0 25px 0;
+    color: black;
+}
+
+/* my projects section */
+.main__content-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.main__projects {
+    margin-bottom: 5px;
+}
+
+.projects__list {
+    padding: 0 0 0 18px;
+}
+
+.projects__list__item {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
+
+.projects__list__item__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 5px;
+}
+
+.projects__list__item__text__link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+
+.projects__list__item__text__bracket {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+}
+
+/* my work experience + education section */
+.work-experience__section {
+    margin: 0 92px 15px 0;
+}
+
+.education__university,
+.work-experience__section__company {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin: 0 0 10px 0;
+}
+
+.education__department,
+.work-experience__section__position {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    margin: 10px 0 10px 0;
+}
+
+.education__period,
+.work-experience__section__period {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 0 10px 0 10px;
+    margin-left: 0px;
+}
+
+.work-experience__section__period__divider,
+.education__period__divider {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000;
+}
+
+.work-experience__section__list {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    padding-left: 18px;
+    width: 510px;
+}
+
+/*  sidebar section */
+.sidebar {
+    background-color: #1e2939;
+    width: 400px;
+    padding: 0 0 0 0;
+    /* margin: 40px 0px 40px 40px; */
+    color: #fff;
+}
+
+.sidebar__image {
+    margin-top: 40px;
+    padding: 0 10px 0 8px;
+}
+
+.sidebar__contacts,
+.sidebar__tech-skills {
+        margin: 50px 0 50px 40px;
+}
+
+.sidebar__soft-skills {
+    margin: 45px 0 0 40px
+}
+
+.sidebar__content-title {
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 27px;
+margin-bottom: 10px;
+}
+
+/* contacts section */
+.contacts__type {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 5px;
+}
+
+.contacts__link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #565E6A;
+}
+
+/* skills lists section */
+.sidebar__soft-skills__list,
+.sidebar__tech-skills__list {
+    padding-left: 18px;
+}
+
+.sidebar__soft-skills__list__item,
+.sidebar__tech-skills__list__item {
+    color: #FB6D3A;
+}
+
+.sidebar__soft-skills__list__item__text,
+.sidebar__tech-skills__list__item__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
